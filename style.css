@@ -36,6 +36,10 @@ ul {
     align-items: center;
 }
 
+.logoMenu >img {
+    width: 200px;
+    height: 180px;
+}
 
 .main-1 {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/principal.jpg");
@@ -82,6 +86,22 @@ ul {
     row-gap: 30px;
 }
 
+.whatsAppFloat{
+    transition: transform 0.4s;
+}
+
+.whatsAppFloat:hover {
+    transform: scale(1.1);
+}
+
+.callFloat{
+    transition: transform 0.4s;
+}
+
+.callFloat:hover {
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width: 464px) {
 
     #edificio {
@@ -100,9 +120,7 @@ ul {
     grid-column-start: 1;
     grid-column-end: 3;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 50px;
     color: #023373;
     /*     background-color: #005e05; */
