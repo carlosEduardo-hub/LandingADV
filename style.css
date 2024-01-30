@@ -31,19 +31,20 @@ ul {
     /* background-color: rgb(95, 95, 95); */
     grid-column-start: 1;
     grid-column-end: 3;
-    display: flex;
     justify-content: space-between;
+    display: flex;
     align-items: center;
 }
 
 .logoMenu >img {
+    margin-left: 0;
     width: 180px;
     height: 180px;
     
 }
 
 #btnMobile{
-    right: 50px;
+    margin-right: 15px;
 }
 
 .main-1 {
