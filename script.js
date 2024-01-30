@@ -1,5 +1,3 @@
-
-
 const btnMobile = document.getElementById("btnMobile");
 
 //Evento clique menu mobile
@@ -10,6 +8,8 @@ function toggleMenu() {
   const nav = document.getElementById("nav");
   nav.classList.toggle("active");
 }
+
+//função para transição vindo das laterias ao abrir aplicação
 
 document.addEventListener("DOMContentLoaded", function () {
   var mainContainer = document.getElementById("mainContainer");
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 500); // Ajuste o tempo conforme necessário
 });
 
-
+// função para enviar mensagem para whatsApp pelos inputs
 function sendwhatsapp(){
     var phonenumber = "+5586999743633";
 

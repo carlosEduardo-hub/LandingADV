@@ -37,8 +37,13 @@ ul {
 }
 
 .logoMenu >img {
-    width: 200px;
+    width: 180px;
     height: 180px;
+    
+}
+
+#btnMobile{
+    right: 50px;
 }
 
 .main-1 {
