@@ -27,7 +27,7 @@ ul {
 }
 
 .header {
-  background-color: white;
+  background-color: black;
   /* background-color: rgb(95, 95, 95); */
   grid-column-start: 1;
   grid-column-end: 3;
@@ -463,6 +463,10 @@ input[type="number"] {
   background-image: url(./images/a-internacional.png);
 }
 
+.Trabalhista {
+    background-image: url(./images/a-Trabalhista.jpg);
+  }
+
 .mask {
   width: 100%;
   height: 100%;
@@ -612,7 +616,7 @@ input[type="number"] {
 .linkMenu {
   display: block;
   text-decoration: none;
-  color: #011c40;
+  color: white;
   font-size: 16px;
   padding: 10px;
 }
@@ -636,12 +640,12 @@ input[type="number"] {
     border: none;
     background: none;
     cursor: pointer;
-    color: #011c40;
+    color: white;
     font-family: "Nunito Sans", sans-serif;
   }
 
   #hamburguer {
-    color: #023373;
+    color: white;
     width: 20px;
     border-top: solid 2px;
   }
