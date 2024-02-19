@@ -735,9 +735,6 @@ input[type="number"] {
     padding: 15px 0px;
     row-gap: 10px;
   }
-  .containerVideo >span{
-    font-size: medium;
-  }
 }
 
 .formContactFooter {
