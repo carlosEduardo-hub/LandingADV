@@ -383,21 +383,15 @@ input[type="number"] {
 }
 
 .cardAreas {
-  /* border: solid 1px red; */
-  /* height: 500px; */
-  /* width: 100%; */
   padding: 50px;
-  /* pode esticar e preencher espaço vazio do pai */
   flex-grow: 1;
   display: grid;
-  /* grid-template: auto auto auto / auto auto auto; */
-  /*  grid-template-columns: auto auto auto; */
-  /* Cards Responsivos */
   grid-template-columns: repeat(3, minmax(280px, 0fr));
   justify-content: center;
   align-content: center;
   gap: 50px 80px;
 }
+
 
 @media only screen and (max-width: 1120px) {
   .cardAreas {
@@ -441,6 +435,7 @@ input[type="number"] {
 
 .Empresarial {
   background-image: url(./images/a-empresarial.png);
+  position: relative;
 }
 
 .Contratual {
@@ -464,8 +459,8 @@ input[type="number"] {
 }
 
 .Trabalhista {
-    background-image: url(./images/a-trabalhista.png);
-  }
+  background-image: url(./images/a-trabalhista.png);
+}
 
 .mask {
   width: 100%;
@@ -926,3 +921,5 @@ input:focus {
   text-decoration: none;
   z-index: 100000;
 }
+
+

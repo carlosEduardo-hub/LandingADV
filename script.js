@@ -206,3 +206,10 @@ function form2Received() {
     document.getElementById("confirmaEnvio2").style.display = "none";
   }
 }
+
+
+
+
+
+
+
