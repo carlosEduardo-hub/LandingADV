@@ -47,7 +47,7 @@ function sendwhatsapp(){
     +"*Email :* "+email+"%0a"
     +"*telefone:* "+telefone+"%0a"
     +"*Assunto:* "+assunto+"%0a"
-    +"*Menssagem :* "+message
+    +"*Mensagem :* "+message
     // +"%0a%0a"
     // +"This is an example of send HTML form data to WhatsApp";
 
