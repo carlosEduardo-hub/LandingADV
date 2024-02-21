@@ -31,7 +31,7 @@ ul {
   /* background-color: rgb(95, 95, 95); */
   grid-column-start: 1;
   grid-column-end: 3;
-  justify-content: space-between;
+  justify-content: flex-end;
   display: flex;
   align-items: center;
 }
